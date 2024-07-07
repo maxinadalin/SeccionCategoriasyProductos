@@ -37,7 +37,7 @@ DJANGO_APPS = [
 ]
 
 # here we put on all apps we will create
-PROJECT_APPS = ['apps.categorias']
+PROJECT_APPS = ['apps.categorias','apps.productos']
 ECOMMERCE_APPS = []
 
 

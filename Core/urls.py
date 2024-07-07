@@ -11,6 +11,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     
     path('api/categorias/',include("apps.categorias.urls")),
+    path('api/productos/',include("apps.productos.urls")),
     
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) #we add static to work 
 
