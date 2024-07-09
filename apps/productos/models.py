@@ -6,6 +6,9 @@ from datetime import datetime
 # Create your models here.
 
 class productos(models.Model):
+    class Meta: 
+        verbose_name = "producto"
+        verbose_name_plural = "productos"
     name = models.CharField(max_length=255)
     photo = models.ImageField(upload_to='photos/%Y/%m/')
     description = models.TextField()
